@@ -1,0 +1,9 @@
+﻿{
+  "year_min": 1800,
+  "sheet_name": "Flat Companies Data",
+  "short_name_max": 50,
+  "overview_quality_range": [200, 500],
+  "long_text_max": 2000,
+  "mission_max": 500,
+  "percent_range": [0, 100]
+}

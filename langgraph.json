@@ -1,0 +1,9 @@
+{
+  "dependencies": [
+    "."
+  ],
+  "env": ".env",
+  "graphs": {
+    "research_agent_graph": "research_agent/langgraph_workflow.py:graph"
+  }
+}

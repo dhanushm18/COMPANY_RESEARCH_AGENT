@@ -7,6 +7,7 @@ from typing import Any
 
 from .prompts import consolidation_prompt
 from .schema import ParameterSpec
+from .validation import collect_row_validation_issues, validate_rows_against_specs
 
 
 INVALID_VALUES = {"", "not found", "n/a", "na", "unknown", "null", "none", "-"}
@@ -124,6 +125,7 @@ def consolidate_rows_for_company_llm(
 def validate_company_record(record: dict[str, Any], specs: list[ParameterSpec], strict_validation: bool = False) -> dict[str, Any]:
     rows = record.get("rows", [])
     errors: list[dict[str, Any]] = []
+    pydantic_issues = validate_rows_against_specs(rows, specs)
     row_by_id = {int(str(r["ID"]).strip()): r for r in rows if str(r.get("ID", "")).strip().isdigit()}
 
     for spec in specs:
@@ -150,15 +152,72 @@ def validate_company_record(record: dict[str, Any], specs: list[ParameterSpec], 
         "is_valid": len(errors) == 0,
         "error_count": len(errors),
         "errors": errors,
+        "pydantic_validation": {
+            "phase": "during_consolidation",
+            "issue_count": len(pydantic_issues),
+            "issues": pydantic_issues,
+        },
         "rows": rows,
     }
+
+
+def regenerate_failed_rows(
+    company_name: str,
+    rows: list[dict[str, Any]],
+    specs: list[ParameterSpec],
+    provider: str,
+    model: str | None,
+) -> list[dict[str, Any]]:
+    from langchain_core.messages import HumanMessage
+
+    from .collector import PROVIDER_SOURCE_LABEL
+    from .llm_provider import build_llm
+    from .prompts import parameter_regeneration_prompt
+
+    issues_by_id = collect_row_validation_issues(rows, specs)
+    if not issues_by_id:
+        return rows
+    print(
+        f"[during_consolidation] company={company_name} regenerating_failed_parameters={len(issues_by_id)}",
+        flush=True,
+    )
+
+    llm = build_llm(provider=provider, model=model, temperature=0.0)
+    source_label = PROVIDER_SOURCE_LABEL.get(provider.lower(), provider)
+    row_by_id = {
+        int(str(r.get("ID", "")).strip()): r
+        for r in rows
+        if str(r.get("ID", "")).strip().isdigit()
+    }
+    spec_by_id = {s.sr_no: s for s in specs}
+    for sid in sorted(issues_by_id.keys()):
+        spec = spec_by_id.get(sid)
+        if not spec:
+            continue
+        prompt = parameter_regeneration_prompt(
+            company_name,
+            spec,
+            validation_errors=issues_by_id.get(sid, []),
+        )
+        resp = llm.invoke([HumanMessage(content=prompt)])
+        value = resp.content if isinstance(resp.content, str) else str(resp.content)
+        value = value.strip() or "Not Found"
+        row_by_id[sid] = {
+            "ID": str(spec.sr_no),
+            "Category": spec.category or "",
+            "A/C": spec.ac or "",
+            "Parameter": spec.parameter or spec.column_name,
+            "Research Output / Data": value,
+            "Source": source_label,
+        }
+    return [row_by_id[s.sr_no] for s in specs if s.sr_no in row_by_id]
 
 
 def consolidate_individual_jsons(
     input_dir: str | Path,
     specs: list[ParameterSpec],
     method: str = "deterministic",
-    provider: str = "openai",
+    provider: str = "groq",
     model: str | None = None,
     strict_validation: bool = False,
 ) -> dict[str, Any]:
@@ -180,6 +239,14 @@ def consolidate_individual_jsons(
             "generated_at": payload.get("generated_at"),
             "rows": consolidated_rows,
         }
+        consolidated_rows = regenerate_failed_rows(
+            company_name=payload.get("company_name", ""),
+            rows=consolidated_rows,
+            specs=specs,
+            provider=provider,
+            model=model,
+        )
+        row_payload["rows"] = consolidated_rows
         validated = validate_company_record(row_payload, specs, strict_validation=strict_validation)
         total_errors += validated["error_count"]
         companies.append(validated)

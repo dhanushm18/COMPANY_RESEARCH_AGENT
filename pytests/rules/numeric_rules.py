@@ -1,0 +1,8 @@
+﻿"""Reusable numeric thresholds and helper constants."""
+
+YEAR_MIN = 1800
+PERCENT_MIN = 0
+PERCENT_MAX = 100
+CAC_LTV_HEALTHY_MIN = 0.2
+CAC_LTV_HEALTHY_MAX = 0.5
+BURN_MULTIPLIER_EFFICIENT_MAX = 1.5
