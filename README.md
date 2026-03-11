@@ -78,6 +78,61 @@ Optional LLM reconciliation using your second prompt pattern (JSON input/output)
 python main.py consolidate --schema data/parameters.template.csv --input-dir outputs/individual_json --output-file outputs/consolidated_validated.json --method llm --provider groq
 ```
 
+## FastAPI Wrapper (LangGraph)
+Run the same LangGraph pipeline via HTTP:
+
+```powershell
+uv run uvicorn research_agent.api.main:app --reload --host 0.0.0.0 --port 8000
+# or
+uv run uvicorn main:app --reload --host 0.0.0.0 --port 8000
+```
+
+Health check:
+```powershell
+curl http://localhost:8000/health
+```
+
+Run pipeline:
+```powershell
+curl -X POST http://localhost:8000/pipeline/run `
+  -H "Content-Type: application/json" `
+  -d "{\"companies\":\"data/companies.json\",\"providers\":[\"groq\",\"gemini\",\"baseten\"]}"
+```
+
+For long runs, use async endpoints:
+```powershell
+curl -X POST http://localhost:8000/pipeline/run-async `
+  -H "Content-Type: application/json" `
+  -d "{}"
+
+curl http://localhost:8000/pipeline/status/<run_id>
+```
+
+The API endpoint maps to `run_langgraph_pipeline(...)` internally and returns the final state plus validation summaries.
+
+## Docker
+Build the image:
+```powershell
+docker build -t research-agent .
+```
+
+Run the API with your local `.env`:
+```powershell
+docker run --rm -p 8000:8000 --env-file .env -v ${PWD}\data:/app/data -v ${PWD}\outputs:/app/outputs research-agent
+```
+
+Or use Compose:
+```powershell
+docker compose up --build
+```
+
+Run CLI commands in the same image:
+```powershell
+docker compose run --rm research-agent python main.py collect --companies data/companies.json --schema data/parameters.template.csv --providers groq,gemini,baseten
+
+docker compose run --rm research-agent python main.py consolidate --schema data/parameters.template.csv --input-dir outputs/individual_json --output-file outputs/consolidated_validated.json --output-csv outputs/consolidated_validated.csv --method deterministic
+```
+
 ## What gets created
 - `outputs/individual_json/provider_json/<company>__<provider>.json`: parsed provider output
 - `outputs/individual_json/<company>.json`: merged raw rows (~489)

@@ -1,0 +1,13 @@
+.git
+.gitignore
+.venv
+.pytest_cache
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.python-version
+.vscode
+.langgraph_api
+outputs
+uv.lock

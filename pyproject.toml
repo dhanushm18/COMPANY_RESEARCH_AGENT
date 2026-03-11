@@ -11,9 +11,12 @@ dependencies = [
     "langchain-openai>=0.2.0",
     "langchain-groq>=0.2.0",
     "python-dotenv>=1.0.1",
+    "psycopg[binary]>=3.2.0",
     "pydantic>=2.8.0",
     "pytest>=8.0.0",
     "langgraph-cli[inmem]>=0.1.0",
     "sambanova>=1.4.1",
     "pandas>=2.3.3",
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
 ]

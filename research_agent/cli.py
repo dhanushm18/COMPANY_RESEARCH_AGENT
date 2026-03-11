@@ -116,6 +116,7 @@ def cmd_consolidate(args: argparse.Namespace) -> int:
         write_ready_for_db_csv,
         write_ready_for_db_json,
     )
+    from .supabase_sync import maybe_sync_outputs_to_supabase
 
     specs = load_parameter_specs(args.schema)
     schema_issues = validate_schema_specs(specs)
@@ -160,6 +161,21 @@ def cmd_consolidate(args: argparse.Namespace) -> int:
         f"[during_consolidation] pydantic_issues={total_pydantic_issues}",
         flush=True,
     )
+    if total_pydantic_issues > 0:
+        supabase_sync = maybe_sync_outputs_to_supabase(
+            provider_json_dir=Path(args.input_dir) / "provider_json",
+            consolidated_payload=consolidated,
+            ready_records=ready_records,
+        )
+        if supabase_sync.get("enabled"):
+            print(
+                "[consolidate] supabase_sync "
+                f"provider_rows={supabase_sync.get('provider_json_rows', 0)} "
+                f"consolidated_rows={supabase_sync.get('consolidated_rows', 0)}",
+                flush=True,
+            )
+        else:
+            print(f"[consolidate] supabase_sync skipped: {supabase_sync.get('reason', 'not enabled')}", flush=True)
     if total_pydantic_issues > 0:
         print("[consolidate] pytest_validation skipped: pydantic validation failed before pytest", flush=True)
         return 1
@@ -207,6 +223,21 @@ def cmd_consolidate(args: argparse.Namespace) -> int:
         print(f"[consolidate] llm_retry wrote: {ready_csv}", flush=True)
         print(f"[consolidate] llm_retry wrote: {ready_json}", flush=True)
         print(f"[consolidate] llm_retry pytest passed={passed} returncode={proc.returncode}", flush=True)
+
+    supabase_sync = maybe_sync_outputs_to_supabase(
+        provider_json_dir=Path(args.input_dir) / "provider_json",
+        consolidated_payload=consolidated,
+        ready_records=ready_records,
+    )
+    if supabase_sync.get("enabled"):
+        print(
+            "[consolidate] supabase_sync "
+            f"provider_rows={supabase_sync.get('provider_json_rows', 0)} "
+            f"consolidated_rows={supabase_sync.get('consolidated_rows', 0)}",
+            flush=True,
+        )
+    else:
+        print(f"[consolidate] supabase_sync skipped: {supabase_sync.get('reason', 'not enabled')}", flush=True)
     return 0
 
 

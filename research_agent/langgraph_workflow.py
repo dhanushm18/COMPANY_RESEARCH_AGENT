@@ -24,6 +24,7 @@ from research_agent.db_push_export import (
     write_ready_for_db_json,
 )
 from research_agent.schema import ParameterSpec, load_parameter_specs
+from research_agent.supabase_sync import maybe_sync_outputs_to_supabase
 from research_agent.validation import (
     collect_row_validation_issues,
     validate_rows_against_specs,
@@ -62,6 +63,7 @@ class WorkflowState(TypedDict, total=False):
     consolidated_csv_path: str
     ready_db_csv_path: str
     ready_db_json_path: str
+    supabase_sync: dict[str, Any]
 
 
 def _load_companies(path: str | Path) -> list[dict[str, Any]]:
@@ -417,6 +419,20 @@ def _node_agent2_consolidate(state: WorkflowState) -> WorkflowState:
     env["AGENT_SCHEMA_PATH"] = state["schema_path"]
     cmd = [sys.executable, "-m", "pytest", "-q", "--confcutdir", "pytests/tests", target]
     if total_pydantic_issues > 0:
+        supabase_sync = maybe_sync_outputs_to_supabase(
+            provider_json_dir=Path(state["output_dir"]) / "provider_json",
+            consolidated_payload=consolidated,
+            ready_records=ready_records,
+        )
+        if supabase_sync.get("enabled"):
+            print(
+                "[agent2] supabase_sync "
+                f"provider_rows={supabase_sync.get('provider_json_rows', 0)} "
+                f"consolidated_rows={supabase_sync.get('consolidated_rows', 0)}",
+                flush=True,
+            )
+        else:
+            print(f"[agent2] supabase_sync skipped: {supabase_sync.get('reason', 'not enabled')}", flush=True)
         summary = {
             "phase": "during_consolidation",
             "passed": False,
@@ -434,6 +450,7 @@ def _node_agent2_consolidate(state: WorkflowState) -> WorkflowState:
             "consolidated_csv_path": str(out_csv),
             "ready_db_csv_path": str(ready_csv),
             "ready_db_json_path": str(ready_json),
+            "supabase_sync": supabase_sync,
             "pytest_validation_agent2": summary,
         }
 
@@ -488,6 +505,21 @@ def _node_agent2_consolidate(state: WorkflowState) -> WorkflowState:
         print(f"[agent2] llm_retry wrote ready_db_csv={ready_csv}", flush=True)
         print(f"[agent2] llm_retry wrote ready_db_json={ready_json}", flush=True)
 
+    supabase_sync = maybe_sync_outputs_to_supabase(
+        provider_json_dir=Path(state["output_dir"]) / "provider_json",
+        consolidated_payload=consolidated,
+        ready_records=ready_records,
+    )
+    if supabase_sync.get("enabled"):
+        print(
+            "[agent2] supabase_sync "
+            f"provider_rows={supabase_sync.get('provider_json_rows', 0)} "
+            f"consolidated_rows={supabase_sync.get('consolidated_rows', 0)}",
+            flush=True,
+        )
+    else:
+        print(f"[agent2] supabase_sync skipped: {supabase_sync.get('reason', 'not enabled')}", flush=True)
+
     print(f"[agent2] pytest_validation passed={passed} returncode={proc.returncode}", flush=True)
     return {
         "consolidated_payload": consolidated,
@@ -495,6 +527,7 @@ def _node_agent2_consolidate(state: WorkflowState) -> WorkflowState:
         "consolidated_csv_path": str(out_csv),
         "ready_db_csv_path": str(ready_csv),
         "ready_db_json_path": str(ready_json),
+        "supabase_sync": supabase_sync,
         "pytest_validation_agent2": summary,
     }
 

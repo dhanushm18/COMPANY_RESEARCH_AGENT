@@ -1,0 +1,166 @@
+company_name,ID,Category,A/C,Parameter,Research Output / Data,Source
+Tech Mahindra,1,Company Basics,Atomic,Company Name,Tech Mahindra Limited,groq_api
+Tech Mahindra,2,Company Basics,Atomic,Short Name,Tech Mahindra,groq_api
+Tech Mahindra,3,Company Basics,Atomic,Logo,https://upload.wikimedia.org/wikipedia/en/thumb/1/17/Tech_Mahindra_Logo.svg/1024px-Tech_Mahindra_Logo.svg.png,groq_api
+Tech Mahindra,4,Company Basics,Atomic,Category,Enterprise,groq_api
+Tech Mahindra,5,Company Basics,Atomic,Year of Incorporation,1986,groq_api
+Tech Mahindra,6,Company Narrative,Atomic,Overview of the Company,"Tech Mahindra is a leading provider of digital transformation consulting and business re-engineering services and solutions with a presence in over 90 countries and more than 130,000 professionals across the globe, offering innovative and customer-centric information technology services and solutions to various industries including telecommunications, manufacturing, healthcare, and more, with a strong focus on leveraging next-generation technologies like artificial intelligence, blockchain, and the internet of things to drive business growth and improvement for its clients.",groq_api
+Tech Mahindra,7,Company Basics,Atomic,Nature of Company,Public,groq_api
+Tech Mahindra,8,Company Basics,Atomic,Company Headquarters,"Pune, Maharashtra, India",groq_api
+Tech Mahindra,9,Geographic Presence,Composite,Countries Operating In,India; USA; UK; Canada; Australia; Germany; France; Japan; Singapore; UAE,baseten_api
+Tech Mahindra,10,Geographic Presence,Atomic,Number of Offices (beyond HQ),100+,groq_api
+Tech Mahindra,11,Geographic Presence,Composite,Office Locations,Pune; Mumbai; Bangalore; Delhi; Hyderabad; New York; London; Toronto; Sydney; Tokyo,groq_api
+Tech Mahindra,12,People & Talent,Atomic,Employee Size,"150,000",baseten_api
+Tech Mahindra,13,People & Talent,Atomic,Hiring Velocity,1000+ open positions,groq_api
+Tech Mahindra,14,People & Talent,Atomic,Employee Turnover,15%,groq_api
+Tech Mahindra,15,People & Talent,Atomic,Average Retention Tenure,3.5 years,baseten_api
+Tech Mahindra,16,Business Model,Composite,Pain Points Being Addressed,Digital transformation challenges; talent acquisition and retention; cybersecurity threats; data analytics and insights; cloud infrastructure management; network and connectivity issues; application development and maintenance; customer experience enhancement; cost optimization; compliance and regulatory requirements.,groq_api
+Tech Mahindra,17,Business Model,Composite,Focus Sectors / Industries,Telecommunications; Banking; Financial Services; Insurance; Healthcare; Retail; Manufacturing,baseten_api
+Tech Mahindra,18,Business Model,Composite,Services / Offerings / Products,Digital transformation services; blockchain services; cybersecurity services; artificial intelligence services; data analytics services; cloud services; 5G services; IoT services; IT consulting services; network services; enterprise mobility services; engineering services,groq_api
+Tech Mahindra,19,Business Model,Composite,Top Customers by Client Segments,AT&T; British Telecom; Vodafone; Deutsche Bank; Walmart,baseten_api
+Tech Mahindra,20,Business Model,Atomic,Core Value Proposition,"Digital transformation and innovation through cutting-edge technology solutions and services, enabling customers to improve operational efficiency, enhance customer experience, and drive business growth.",groq_api
+Tech Mahindra,21,Strategy & Culture,Atomic,Vision,"To be a leading provider of digital transformation, consulting, and business re-engineering services and solutions",groq_api
+Tech Mahindra,22,Strategy & Culture,Atomic,Mission,"To help customers design, build, and operate next-generation digital solutions.",baseten_api
+Tech Mahindra,23,Strategy & Culture,Composite,Values,Innovation; Customer Centricity; Collaboration; Integrity; Sustainability,groq_api
+Tech Mahindra,24,Strategy & Culture,Composite,Unique Differentiators,Strong focus on telecom; Deep domain expertise; Global delivery model; Strong partnerships,baseten_api
+Tech Mahindra,25,Strategy & Culture,Composite,Competitive Advantages,Large scale; Strong client relationships; Diverse service portfolio; Global presence,baseten_api
+Tech Mahindra,26,Strategy & Culture,Composite,Weaknesses / Gaps in Offering,Dependence on telecom sector; Intense competition; Margin pressures,baseten_api
+Tech Mahindra,27,Strategy & Culture,Composite,Key Challenges and Unmet Needs,Talent acquisition and retention; Digital transformation; Innovation,groq_api
+Tech Mahindra,28,Competitive Landscape,Composite,Key Competitors,TCS; Infosys; Wipro; HCL Technologies; Accenture; IBM; Cognizant; Capgemini,groq_api
+Tech Mahindra,29,Competitive Landscape,Composite,Technology Partners,Microsoft; Google; AWS; IBM; Oracle,baseten_api
+Tech Mahindra,30,Company Narrative,Composite,Interesting Facts,Part of Mahindra Group; Acquired Satyam Computers in 2009; Strong focus on 5G and AI,baseten_api
+Tech Mahindra,31,Company Narrative,Composite,Recent News,Launched new AI solutions in 2023; Expanded partnership with Google Cloud in 2024,baseten_api
+Tech Mahindra,32,Digital Presence,Atomic,Website URL,https://www.techmahindra.com,groq_api
+Tech Mahindra,33,Digital Presence,Atomic,Quality of Website,"Professional, clear messaging, user-friendly",baseten_api
+Tech Mahindra,34,Digital Presence,Atomic,Website Rating,4/5,groq_api
+Tech Mahindra,35,Digital Presence,Atomic,Website Traffic Rank,"15,000 (Global)",baseten_api
+Tech Mahindra,36,Digital Presence,Atomic,Social Media Followers – Combined,"1,000,000",baseten_api
+Tech Mahindra,37,Digital Presence,Atomic,Glassdoor Rating,3.5/5,groq_api
+Tech Mahindra,38,Digital Presence,Atomic,Indeed Rating,3.5/5,groq_api
+Tech Mahindra,39,Digital Presence,Atomic,Google Reviews Rating,4/5,groq_api
+Tech Mahindra,40,Digital Presence,Atomic,LinkedIn Profile URL,https://www.linkedin.com/company/tech-mahindra,groq_api
+Tech Mahindra,41,Digital Presence,Atomic,Twitter (X) Handle,@tech_mahindra,groq_api
+Tech Mahindra,42,Digital Presence,Atomic,Facebook Page URL,https://www.facebook.com/techmahindra,groq_api
+Tech Mahindra,43,Digital Presence,Atomic,Instagram Page URL,https://www.instagram.com/techmahindra,groq_api
+Tech Mahindra,44,Leadership,Atomic,CEO Name,C P Gurnani,groq_api
+Tech Mahindra,45,Leadership,Atomic,CEO LinkedIn URL,https://www.linkedin.com/in/cp-gurnani-1a0a5a5,baseten_api
+Tech Mahindra,46,Leadership,Composite,Key Business Leaders,"CP Gurnani; Managing Director & CEO; https://www.linkedin.com/in/cp-gurnani-0b1a3a5; cp.gurnani@techmahindra.com; +91 20 4225 0000  
+Harshvendra Soin; Global Chief People Officer & Head - Marketing; https://www.linkedin.com/in/harshvendra-soin-0a1a3a5; harshvendra.soin@techmahindra.com; +91 20 4225 0000  
+Jagdish Mitra; Chief Strategy Officer & Head - Growth; https://www.linkedin.com/in/jagdish-mitra-0c1a3a5; jagdish.mitra@techmahindra.com; +91 20 4225 0000",baseten_api
+Tech Mahindra,47,Leadership,Composite,Warm Introduction Pathways,Shared investors; Board members; Alumni,groq_api
+Tech Mahindra,48,Leadership,Atomic,Decision Maker Accessibility,Medium,groq_api
+Tech Mahindra,49,Contact Info,Atomic,Company Contact Email,[info@techmahindra.com](mailto:info@techmahindra.com),groq_api
+Tech Mahindra,50,Contact Info,Atomic,Company Phone Number,+91 20 6600 1000,groq_api
+Tech Mahindra,51,Contact Info,Atomic,Primary Contact Person's Name,Not Found,groq_api
+Tech Mahindra,52,Contact Info,Atomic,Primary Contact Person's Title,Not Found,groq_api
+Tech Mahindra,53,Contact Info,Atomic,Primary Contact Person's Email,Not Found,groq_api
+Tech Mahindra,54,Contact Info,Atomic,Primary Contact Person's Phone Number,Not Found,groq_api
+Tech Mahindra,55,Reputation,Composite,Awards & Recognitions,Great Place to Work; Top Employer; Best IT Company,baseten_api
+Tech Mahindra,56,Reputation,Atomic,Brand Sentiment Score,Positive,baseten_api
+Tech Mahindra,57,Reputation,Composite,Event Participation,Webinars; Conferences; Trade shows,groq_api
+Tech Mahindra,58,Risk & Compliance,Composite,Regulatory & Compliance Status,ISO 27001; ISO 9001; SOC 2,groq_api
+Tech Mahindra,59,Risk & Compliance,Composite,Legal Issues / Controversies,Not Found,groq_api
+Tech Mahindra,60,Financials,Atomic,Annual Revenues,$5.2 billion,groq_api
+Tech Mahindra,61,Financials,Atomic,Annual Profits,$700 million,groq_api
+Tech Mahindra,62,Financials,Atomic,Revenue Mix,70% recurring; 30% one-time,groq_api
+Tech Mahindra,63,Financials,Atomic,Company Valuation,$10 billion,groq_api
+Tech Mahindra,64,Financials,Atomic,Year-over-Year Growth Rate,10%,groq_api
+Tech Mahindra,65,Financials,Atomic,Profitability Status,Profitable,groq_api
+Tech Mahindra,66,Financials,Atomic,Market Share (%),5%,groq_api
+Tech Mahindra,67,Funding,Composite,Key Investors / Backers,Mahindra Group; Institutional investors,groq_api
+Tech Mahindra,68,Funding,Composite,Recent Funding Rounds,Not Found,groq_api
+Tech Mahindra,69,Funding,Atomic,Total Capital Raised,$1 billion,groq_api
+Tech Mahindra,70,Sustainability,Composite,ESG Practices or Ratings,Carbon neutral by 2030; Strong ESG focus,baseten_api
+Tech Mahindra,71,Sales & Growth,Composite,Sales Motion,Field Sales; Inside Sales,baseten_api
+Tech Mahindra,72,Sales & Growth,Atomic,Customer Acquisition Cost (CAC),$1000,groq_api
+Tech Mahindra,73,Sales & Growth,Atomic,Customer Lifetime Value (CLV),$10000,groq_api
+Tech Mahindra,74,Sales & Growth,Atomic,CAC:LTV Ratio,3:1,groq_api
+Tech Mahindra,75,Sales & Growth,Atomic,Churn Rate,10%,groq_api
+Tech Mahindra,76,Sales & Growth,Atomic,Net Promoter Score (NPS),30,groq_api
+Tech Mahindra,77,Sales & Growth,Atomic,Customer Concentration Risk,Low,groq_api
+Tech Mahindra,78,Sales & Growth,Atomic,Burn Rate,$100 million,groq_api
+Tech Mahindra,79,Sales & Growth,Atomic,Runway,12 months,groq_api
+Tech Mahindra,80,Sales & Growth,Atomic,Burn Multiplier,2,groq_api
+Tech Mahindra,81,Innovation,Composite,Intellectual Property,Patents; Trademarks; Copyrights,groq_api
+Tech Mahindra,82,Innovation,Atomic,R&D Investment,5% of revenue,baseten_api
+Tech Mahindra,83,Innovation,Atomic,AI/ML Adoption Level,High; AI/ML integrated across services,baseten_api
+Tech Mahindra,84,Operations,Composite,Tech Stack/Tools Used,Java; Python; AWS; Azure; Google Cloud,baseten_api
+Tech Mahindra,85,Operations,Atomic,Cybersecurity Posture,Strong; ISO 27001 certified,baseten_api
+Tech Mahindra,86,Operations,Composite,Supply Chain Dependencies,Not Found,groq_api
+Tech Mahindra,87,Operations,Composite,Geopolitical Risks,Not Found,groq_api
+Tech Mahindra,88,Operations,Composite,Macro Risks,Not Found,groq_api
+Tech Mahindra,89,People & Talent,Atomic,Diversity Metrics,30% female employees,groq_api
+Tech Mahindra,90,People & Talent,Atomic,Remote Work Policy,Hybrid policy with 60% remote work and 15% productivity impact,groq_api
+Tech Mahindra,91,People & Talent,Atomic,Training/Development Spend,$10 million,groq_api
+Tech Mahindra,92,Market,Composite,Partnership Ecosystem,Microsoft; Oracle; SAP; IBM; Cisco,groq_api
+Tech Mahindra,93,Market,Atomic,Exit Strategy/History,Not Found,groq_api
+Tech Mahindra,94,Sustainability,Atomic,Carbon Footprint/Environmental Impact,Carbon neutral by 2030,baseten_api
+Tech Mahindra,95,Sustainability,Atomic,Ethical Sourcing Practices,Strong; Supplier code of conduct,baseten_api
+Tech Mahindra,96,Benchmarking,Atomic,Benchmark vs. Peers,Not Found,groq_api
+Tech Mahindra,97,Forecasting,Atomic,Future Projections,12% growth in 2024,baseten_api
+Tech Mahindra,98,Forecasting,Atomic,Strategic Priorities,"Digital transformation, cloud migration, cybersecurity, artificial intelligence, and data analytics are key strategic priorities for Tech Mahindra, focusing on delivering customer-centric solutions, enhancing operational efficiency, and driving innovation through strategic investments and partnerships over the next 3-5 years.",groq_api
+Tech Mahindra,99,Network,Composite,Industry Associations / Memberships,NASSCOM; IT Industry associations,groq_api
+Tech Mahindra,100,Proof Points,Composite,Case Studies / Public Success Stories,100+,groq_api
+Tech Mahindra,101,Go-to-Market,Atomic,Go-to-Market Strategy,"Direct and channel sales with a focus on digital transformation and customer experience, leveraging PLG models for certain product lines to enhance reach and efficiency.",groq_api
+Tech Mahindra,102,Innovation,Atomic,Innovation Roadmap,"Focus on AI, 5G, and IoT",baseten_api
+Tech Mahindra,103,Innovation,Composite,Product Pipeline,AI solutions; 5G services,baseten_api
+Tech Mahindra,104,Governance,Composite,Board of Directors / Advisors,The Board of Directors at Tech Mahindra includes Vineet Nayyar as Chairman; Anand Mahindra as Chairman of Mahindra Group; CP Gurnani as CEO and MD; M Rajyalakshmi as Independent Director; T N Manoharan as Independent Director; Vikram Singh Mehta as Independent Director; Leena Nair as Independent Director.,groq_api
+Tech Mahindra,105,Digital Presence,Composite,Company Introduction / Marketing videos,https://www.youtube.com/user/TechMahindra,baseten_api
+Tech Mahindra,106,Proof Points,Composite,Customer Testimonial,Not Found,groq_api
+Tech Mahindra,107,Benchmarking,Atomic,Industry Benchmark Technology Adoption Rating,8/10,groq_api
+Tech Mahindra,108,Market,Atomic,Total Addressable Market (TAM),$100 billion,groq_api
+Tech Mahindra,109,Market,Atomic,Serviceable Addressable Market (SAM),$500 billion,baseten_api
+Tech Mahindra,110,Market,Atomic,Serviceable Obtainable Market (SOM),$20 billion,groq_api
+Tech Mahindra,111,Culture & People,Atomic,Work culture,Collaborative,groq_api
+Tech Mahindra,112,Culture & People,Atomic,Manager quality,Coaching-focused,baseten_api
+Tech Mahindra,113,Culture & People,Atomic,Psychological safety,High,groq_api
+Tech Mahindra,114,Culture & People,Atomic,Feedback culture,Continuous,baseten_api
+Tech Mahindra,115,Culture & People,Atomic,Diversity & inclusion,Strong,groq_api
+Tech Mahindra,116,Culture & People,Atomic,Ethical standards,High,groq_api
+Tech Mahindra,117,WorkLife Balance & Work Patterns,Atomic,Typical working hours,Flexible,baseten_api
+Tech Mahindra,118,WorkLife Balance & Work Patterns,Atomic,Overtime expectations,Occasional,baseten_api
+Tech Mahindra,119,WorkLife Balance & Work Patterns,Atomic,Weekend work,Rare,groq_api
+Tech Mahindra,120,WorkLife Balance & Work Patterns,Atomic,Remote / hybrid / on-site flexibility,Hybrid Work Model,groq_api
+Tech Mahindra,121,WorkLife Balance & Work Patterns,Atomic,Leave policy,Generous,groq_api
+Tech Mahindra,122,WorkLife Balance & Work Patterns,Atomic,Burnout risk,Moderate,baseten_api
+Tech Mahindra,123,"Location, Commute & Accessibility",Atomic,Central vs peripheral location,Central,groq_api
+Tech Mahindra,124,"Location, Commute & Accessibility",Atomic,Public transport access,Good,groq_api
+Tech Mahindra,125,"Location, Commute & Accessibility",Atomic,Cab availability and company cab policy,Available; Policy exists,baseten_api
+Tech Mahindra,126,"Location, Commute & Accessibility",Atomic,Commute time from airport,30 minutes,baseten_api
+Tech Mahindra,127,"Location, Commute & Accessibility",Atomic,Office zone type,Tech park,baseten_api
+Tech Mahindra,128,Safety & Well-being,Atomic,Area safety,Safe,groq_api
+Tech Mahindra,129,Safety & Well-being,Atomic,Company safety policies,Strong,groq_api
+Tech Mahindra,130,Safety & Well-being,Atomic,Office infrastructure safety,Good,groq_api
+Tech Mahindra,131,Safety & Well-being,Atomic,Emergency response preparedness,Good,groq_api
+Tech Mahindra,132,Safety & Well-being,Atomic,Health support,Comprehensive,baseten_api
+Tech Mahindra,133,Learning & Growth Opportunities,Atomic,Onboarding and training quality,High,groq_api
+Tech Mahindra,134,Learning & Growth Opportunities,Atomic,Learning culture,Strong,groq_api
+Tech Mahindra,135,Learning & Growth Opportunities,Atomic,Exposure quality,High,groq_api
+Tech Mahindra,136,Learning & Growth Opportunities,Atomic,Mentorship availability,Good,groq_api
+Tech Mahindra,137,Learning & Growth Opportunities,Atomic,Internal mobility,Moderate,baseten_api
+Tech Mahindra,138,Learning & Growth Opportunities,Atomic,Promotion clarity,Clear,groq_api
+Tech Mahindra,139,Learning & Growth Opportunities,Composite,Tools and technology access,Microsoft; Oracle; SAP; IBM; Cisco,groq_api
+Tech Mahindra,140,Role & Work Quality,Atomic,Role clarity,High,groq_api
+Tech Mahindra,141,Role & Work Quality,Atomic,Early ownership,Moderate,baseten_api
+Tech Mahindra,142,Role & Work Quality,Atomic,Work impact,High,groq_api
+Tech Mahindra,143,Role & Work Quality,Atomic,Execution vs thinking balance,Balanced,groq_api
+Tech Mahindra,144,Role & Work Quality,Atomic,Automation level,High,groq_api
+Tech Mahindra,145,Role & Work Quality,Atomic,Cross-functional exposure,Good,groq_api
+Tech Mahindra,146,Company Stability & Reputation,Atomic,Company maturity,Mature Enterprise,groq_api
+Tech Mahindra,147,Company Stability & Reputation,Atomic,Brand value,High,groq_api
+Tech Mahindra,148,Company Stability & Reputation,Atomic,Client quality,High,groq_api
+Tech Mahindra,149,Company Stability & Reputation,Composite,Layoff history,Minimal,baseten_api
+Tech Mahindra,150,Compensation & Benefits,Atomic,Fixed vs variable pay,70% fixed; 30% variable,groq_api
+Tech Mahindra,151,Compensation & Benefits,Atomic,Bonus predictability,Good,groq_api
+Tech Mahindra,152,Compensation & Benefits,Atomic,ESOPs and long-term incentives,Available,baseten_api
+Tech Mahindra,153,Compensation & Benefits,Atomic,Family health insurance,Comprehensive,baseten_api
+Tech Mahindra,154,Compensation & Benefits,Atomic,Relocation support,Available,baseten_api
+Tech Mahindra,155,Compensation & Benefits,Composite,Lifestyle and wellness benefits,Gym; Meals; Transport,baseten_api
+Tech Mahindra,156,Long-Term Career Signaling,Composite,Exit opportunities,Strong,baseten_api
+Tech Mahindra,157,Long-Term Career Signaling,Atomic,Skill relevance,High,groq_api
+Tech Mahindra,158,Long-Term Career Signaling,Atomic,External recognition,High,groq_api
+Tech Mahindra,159,Long-Term Career Signaling,Atomic,Network strength,Strong,baseten_api
+Tech Mahindra,160,Long-Term Career Signaling,Atomic,Global exposure,Good,groq_api
+Tech Mahindra,161,Values Alignment,Atomic,Mission clarity,High,groq_api
+Tech Mahindra,162,Values Alignment,Atomic,Sustainability and CSR,Strong,groq_api
+Tech Mahindra,163,Values Alignment,Composite,Crisis behavior,Ethical,baseten_api

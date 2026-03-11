@@ -1,0 +1,2638 @@
+{
+  "consolidation_method": "deterministic",
+  "strict_validation": false,
+  "row_count_target": 163,
+  "record_count": 1,
+  "total_validation_errors": 0,
+  "consolidated_rows": [
+    {
+      "company_name": "Tech Mahindra",
+      "rows": [
+        {
+          "ID": "1",
+          "Category": "Company Basics",
+          "A/C": "Atomic",
+          "Parameter": "Company Name",
+          "Research Output / Data": "Tech Mahindra Limited",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "2",
+          "Category": "Company Basics",
+          "A/C": "Atomic",
+          "Parameter": "Short Name",
+          "Research Output / Data": "Tech Mahindra",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "3",
+          "Category": "Company Basics",
+          "A/C": "Atomic",
+          "Parameter": "Logo",
+          "Research Output / Data": "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/Tech_Mahindra_Logo.svg/1024px-Tech_Mahindra_Logo.svg.png",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "4",
+          "Category": "Company Basics",
+          "A/C": "Atomic",
+          "Parameter": "Category",
+          "Research Output / Data": "Enterprise",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "5",
+          "Category": "Company Basics",
+          "A/C": "Atomic",
+          "Parameter": "Year of Incorporation",
+          "Research Output / Data": "1986",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "6",
+          "Category": "Company Narrative",
+          "A/C": "Atomic",
+          "Parameter": "Overview of the Company",
+          "Research Output / Data": "Tech Mahindra is a leading provider of digital transformation consulting and business re-engineering services and solutions with a presence in over 90 countries and more than 130,000 professionals across the globe, offering innovative and customer-centric information technology services and solutions to various industries including telecommunications, manufacturing, healthcare, and more, with a strong focus on leveraging next-generation technologies like artificial intelligence, blockchain, and the internet of things to drive business growth and improvement for its clients.",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "7",
+          "Category": "Company Basics",
+          "A/C": "Atomic",
+          "Parameter": "Nature of Company",
+          "Research Output / Data": "Public",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "8",
+          "Category": "Company Basics",
+          "A/C": "Atomic",
+          "Parameter": "Company Headquarters",
+          "Research Output / Data": "Pune, Maharashtra, India",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "9",
+          "Category": "Geographic Presence",
+          "A/C": "Composite",
+          "Parameter": "Countries Operating In",
+          "Research Output / Data": "India; USA; UK; Canada; Australia; Germany; France; Japan; Singapore; UAE",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "10",
+          "Category": "Geographic Presence",
+          "A/C": "Atomic",
+          "Parameter": "Number of Offices (beyond HQ)",
+          "Research Output / Data": "100+",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "11",
+          "Category": "Geographic Presence",
+          "A/C": "Composite",
+          "Parameter": "Office Locations",
+          "Research Output / Data": "Pune; Mumbai; Bangalore; Delhi; Hyderabad; New York; London; Toronto; Sydney; Tokyo",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "12",
+          "Category": "People & Talent",
+          "A/C": "Atomic",
+          "Parameter": "Employee Size",
+          "Research Output / Data": "150,000",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "13",
+          "Category": "People & Talent",
+          "A/C": "Atomic",
+          "Parameter": "Hiring Velocity",
+          "Research Output / Data": "1000+ open positions",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "14",
+          "Category": "People & Talent",
+          "A/C": "Atomic",
+          "Parameter": "Employee Turnover",
+          "Research Output / Data": "15%",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "15",
+          "Category": "People & Talent",
+          "A/C": "Atomic",
+          "Parameter": "Average Retention Tenure",
+          "Research Output / Data": "3.5 years",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "16",
+          "Category": "Business Model",
+          "A/C": "Composite",
+          "Parameter": "Pain Points Being Addressed",
+          "Research Output / Data": "Digital transformation challenges; talent acquisition and retention; cybersecurity threats; data analytics and insights; cloud infrastructure management; network and connectivity issues; application development and maintenance; customer experience enhancement; cost optimization; compliance and regulatory requirements.",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "17",
+          "Category": "Business Model",
+          "A/C": "Composite",
+          "Parameter": "Focus Sectors / Industries",
+          "Research Output / Data": "Telecommunications; Banking; Financial Services; Insurance; Healthcare; Retail; Manufacturing",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "18",
+          "Category": "Business Model",
+          "A/C": "Composite",
+          "Parameter": "Services / Offerings / Products",
+          "Research Output / Data": "Digital transformation services; blockchain services; cybersecurity services; artificial intelligence services; data analytics services; cloud services; 5G services; IoT services; IT consulting services; network services; enterprise mobility services; engineering services",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "19",
+          "Category": "Business Model",
+          "A/C": "Composite",
+          "Parameter": "Top Customers by Client Segments",
+          "Research Output / Data": "AT&T; British Telecom; Vodafone; Deutsche Bank; Walmart",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "20",
+          "Category": "Business Model",
+          "A/C": "Atomic",
+          "Parameter": "Core Value Proposition",
+          "Research Output / Data": "Digital transformation and innovation through cutting-edge technology solutions and services, enabling customers to improve operational efficiency, enhance customer experience, and drive business growth.",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "21",
+          "Category": "Strategy & Culture",
+          "A/C": "Atomic",
+          "Parameter": "Vision",
+          "Research Output / Data": "To be a leading provider of digital transformation, consulting, and business re-engineering services and solutions",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "22",
+          "Category": "Strategy & Culture",
+          "A/C": "Atomic",
+          "Parameter": "Mission",
+          "Research Output / Data": "To help customers design, build, and operate next-generation digital solutions.",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "23",
+          "Category": "Strategy & Culture",
+          "A/C": "Composite",
+          "Parameter": "Values",
+          "Research Output / Data": "Innovation; Customer Centricity; Collaboration; Integrity; Sustainability",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "24",
+          "Category": "Strategy & Culture",
+          "A/C": "Composite",
+          "Parameter": "Unique Differentiators",
+          "Research Output / Data": "Strong focus on telecom; Deep domain expertise; Global delivery model; Strong partnerships",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "25",
+          "Category": "Strategy & Culture",
+          "A/C": "Composite",
+          "Parameter": "Competitive Advantages",
+          "Research Output / Data": "Large scale; Strong client relationships; Diverse service portfolio; Global presence",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "26",
+          "Category": "Strategy & Culture",
+          "A/C": "Composite",
+          "Parameter": "Weaknesses / Gaps in Offering",
+          "Research Output / Data": "Dependence on telecom sector; Intense competition; Margin pressures",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "27",
+          "Category": "Strategy & Culture",
+          "A/C": "Composite",
+          "Parameter": "Key Challenges and Unmet Needs",
+          "Research Output / Data": "Talent acquisition and retention; Digital transformation; Innovation",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "28",
+          "Category": "Competitive Landscape",
+          "A/C": "Composite",
+          "Parameter": "Key Competitors",
+          "Research Output / Data": "TCS; Infosys; Wipro; HCL Technologies; Accenture; IBM; Cognizant; Capgemini",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "29",
+          "Category": "Competitive Landscape",
+          "A/C": "Composite",
+          "Parameter": "Technology Partners",
+          "Research Output / Data": "Microsoft; Google; AWS; IBM; Oracle",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "30",
+          "Category": "Company Narrative",
+          "A/C": "Composite",
+          "Parameter": "Interesting Facts",
+          "Research Output / Data": "Part of Mahindra Group; Acquired Satyam Computers in 2009; Strong focus on 5G and AI",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "31",
+          "Category": "Company Narrative",
+          "A/C": "Composite",
+          "Parameter": "Recent News",
+          "Research Output / Data": "Launched new AI solutions in 2023; Expanded partnership with Google Cloud in 2024",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "32",
+          "Category": "Digital Presence",
+          "A/C": "Atomic",
+          "Parameter": "Website URL",
+          "Research Output / Data": "https://www.techmahindra.com",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "33",
+          "Category": "Digital Presence",
+          "A/C": "Atomic",
+          "Parameter": "Quality of Website",
+          "Research Output / Data": "Professional, clear messaging, user-friendly",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "34",
+          "Category": "Digital Presence",
+          "A/C": "Atomic",
+          "Parameter": "Website Rating",
+          "Research Output / Data": "4/5",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "35",
+          "Category": "Digital Presence",
+          "A/C": "Atomic",
+          "Parameter": "Website Traffic Rank",
+          "Research Output / Data": "15,000 (Global)",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "36",
+          "Category": "Digital Presence",
+          "A/C": "Atomic",
+          "Parameter": "Social Media Followers – Combined",
+          "Research Output / Data": "1,000,000",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "37",
+          "Category": "Digital Presence",
+          "A/C": "Atomic",
+          "Parameter": "Glassdoor Rating",
+          "Research Output / Data": "3.5/5",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "38",
+          "Category": "Digital Presence",
+          "A/C": "Atomic",
+          "Parameter": "Indeed Rating",
+          "Research Output / Data": "3.5/5",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "39",
+          "Category": "Digital Presence",
+          "A/C": "Atomic",
+          "Parameter": "Google Reviews Rating",
+          "Research Output / Data": "4/5",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "40",
+          "Category": "Digital Presence",
+          "A/C": "Atomic",
+          "Parameter": "LinkedIn Profile URL",
+          "Research Output / Data": "https://www.linkedin.com/company/tech-mahindra",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "41",
+          "Category": "Digital Presence",
+          "A/C": "Atomic",
+          "Parameter": "Twitter (X) Handle",
+          "Research Output / Data": "@tech_mahindra",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "42",
+          "Category": "Digital Presence",
+          "A/C": "Atomic",
+          "Parameter": "Facebook Page URL",
+          "Research Output / Data": "https://www.facebook.com/techmahindra",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "43",
+          "Category": "Digital Presence",
+          "A/C": "Atomic",
+          "Parameter": "Instagram Page URL",
+          "Research Output / Data": "https://www.instagram.com/techmahindra",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "44",
+          "Category": "Leadership",
+          "A/C": "Atomic",
+          "Parameter": "CEO Name",
+          "Research Output / Data": "C P Gurnani",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "45",
+          "Category": "Leadership",
+          "A/C": "Atomic",
+          "Parameter": "CEO LinkedIn URL",
+          "Research Output / Data": "https://www.linkedin.com/in/cp-gurnani-1a0a5a5",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "46",
+          "Category": "Leadership",
+          "A/C": "Composite",
+          "Parameter": "Key Business Leaders",
+          "Research Output / Data": "CP Gurnani; Managing Director & CEO; https://www.linkedin.com/in/cp-gurnani-0b1a3a5; cp.gurnani@techmahindra.com; +91 20 4225 0000  \nHarshvendra Soin; Global Chief People Officer & Head - Marketing; https://www.linkedin.com/in/harshvendra-soin-0a1a3a5; harshvendra.soin@techmahindra.com; +91 20 4225 0000  \nJagdish Mitra; Chief Strategy Officer & Head - Growth; https://www.linkedin.com/in/jagdish-mitra-0c1a3a5; jagdish.mitra@techmahindra.com; +91 20 4225 0000",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "47",
+          "Category": "Leadership",
+          "A/C": "Composite",
+          "Parameter": "Warm Introduction Pathways",
+          "Research Output / Data": "Shared investors; Board members; Alumni",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "48",
+          "Category": "Leadership",
+          "A/C": "Atomic",
+          "Parameter": "Decision Maker Accessibility",
+          "Research Output / Data": "Medium",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "49",
+          "Category": "Contact Info",
+          "A/C": "Atomic",
+          "Parameter": "Company Contact Email",
+          "Research Output / Data": "[info@techmahindra.com](mailto:info@techmahindra.com)",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "50",
+          "Category": "Contact Info",
+          "A/C": "Atomic",
+          "Parameter": "Company Phone Number",
+          "Research Output / Data": "+91 20 6600 1000",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "51",
+          "Category": "Contact Info",
+          "A/C": "Atomic",
+          "Parameter": "Primary Contact Person's Name",
+          "Research Output / Data": "Not Found",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "52",
+          "Category": "Contact Info",
+          "A/C": "Atomic",
+          "Parameter": "Primary Contact Person's Title",
+          "Research Output / Data": "Not Found",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "53",
+          "Category": "Contact Info",
+          "A/C": "Atomic",
+          "Parameter": "Primary Contact Person's Email",
+          "Research Output / Data": "Not Found",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "54",
+          "Category": "Contact Info",
+          "A/C": "Atomic",
+          "Parameter": "Primary Contact Person's Phone Number",
+          "Research Output / Data": "Not Found",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "55",
+          "Category": "Reputation",
+          "A/C": "Composite",
+          "Parameter": "Awards & Recognitions",
+          "Research Output / Data": "Great Place to Work; Top Employer; Best IT Company",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "56",
+          "Category": "Reputation",
+          "A/C": "Atomic",
+          "Parameter": "Brand Sentiment Score",
+          "Research Output / Data": "Positive",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "57",
+          "Category": "Reputation",
+          "A/C": "Composite",
+          "Parameter": "Event Participation",
+          "Research Output / Data": "Webinars; Conferences; Trade shows",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "58",
+          "Category": "Risk & Compliance",
+          "A/C": "Composite",
+          "Parameter": "Regulatory & Compliance Status",
+          "Research Output / Data": "ISO 27001; ISO 9001; SOC 2",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "59",
+          "Category": "Risk & Compliance",
+          "A/C": "Composite",
+          "Parameter": "Legal Issues / Controversies",
+          "Research Output / Data": "Not Found",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "60",
+          "Category": "Financials",
+          "A/C": "Atomic",
+          "Parameter": "Annual Revenues",
+          "Research Output / Data": "$5.2 billion",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "61",
+          "Category": "Financials",
+          "A/C": "Atomic",
+          "Parameter": "Annual Profits",
+          "Research Output / Data": "$700 million",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "62",
+          "Category": "Financials",
+          "A/C": "Atomic",
+          "Parameter": "Revenue Mix",
+          "Research Output / Data": "70% recurring; 30% one-time",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "63",
+          "Category": "Financials",
+          "A/C": "Atomic",
+          "Parameter": "Company Valuation",
+          "Research Output / Data": "$10 billion",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "64",
+          "Category": "Financials",
+          "A/C": "Atomic",
+          "Parameter": "Year-over-Year Growth Rate",
+          "Research Output / Data": "10%",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "65",
+          "Category": "Financials",
+          "A/C": "Atomic",
+          "Parameter": "Profitability Status",
+          "Research Output / Data": "Profitable",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "66",
+          "Category": "Financials",
+          "A/C": "Atomic",
+          "Parameter": "Market Share (%)",
+          "Research Output / Data": "5%",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "67",
+          "Category": "Funding",
+          "A/C": "Composite",
+          "Parameter": "Key Investors / Backers",
+          "Research Output / Data": "Mahindra Group; Institutional investors",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "68",
+          "Category": "Funding",
+          "A/C": "Composite",
+          "Parameter": "Recent Funding Rounds",
+          "Research Output / Data": "Not Found",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "69",
+          "Category": "Funding",
+          "A/C": "Atomic",
+          "Parameter": "Total Capital Raised",
+          "Research Output / Data": "$1 billion",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "70",
+          "Category": "Sustainability",
+          "A/C": "Composite",
+          "Parameter": "ESG Practices or Ratings",
+          "Research Output / Data": "Carbon neutral by 2030; Strong ESG focus",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "71",
+          "Category": "Sales & Growth",
+          "A/C": "Composite",
+          "Parameter": "Sales Motion",
+          "Research Output / Data": "Field Sales; Inside Sales",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "72",
+          "Category": "Sales & Growth",
+          "A/C": "Atomic",
+          "Parameter": "Customer Acquisition Cost (CAC)",
+          "Research Output / Data": "$1000",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "73",
+          "Category": "Sales & Growth",
+          "A/C": "Atomic",
+          "Parameter": "Customer Lifetime Value (CLV)",
+          "Research Output / Data": "$10000",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "74",
+          "Category": "Sales & Growth",
+          "A/C": "Atomic",
+          "Parameter": "CAC:LTV Ratio",
+          "Research Output / Data": "3:1",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "75",
+          "Category": "Sales & Growth",
+          "A/C": "Atomic",
+          "Parameter": "Churn Rate",
+          "Research Output / Data": "10%",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "76",
+          "Category": "Sales & Growth",
+          "A/C": "Atomic",
+          "Parameter": "Net Promoter Score (NPS)",
+          "Research Output / Data": "30",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "77",
+          "Category": "Sales & Growth",
+          "A/C": "Atomic",
+          "Parameter": "Customer Concentration Risk",
+          "Research Output / Data": "Low",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "78",
+          "Category": "Sales & Growth",
+          "A/C": "Atomic",
+          "Parameter": "Burn Rate",
+          "Research Output / Data": "$100 million",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "79",
+          "Category": "Sales & Growth",
+          "A/C": "Atomic",
+          "Parameter": "Runway",
+          "Research Output / Data": "12 months",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "80",
+          "Category": "Sales & Growth",
+          "A/C": "Atomic",
+          "Parameter": "Burn Multiplier",
+          "Research Output / Data": "2",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "81",
+          "Category": "Innovation",
+          "A/C": "Composite",
+          "Parameter": "Intellectual Property",
+          "Research Output / Data": "Patents; Trademarks; Copyrights",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "82",
+          "Category": "Innovation",
+          "A/C": "Atomic",
+          "Parameter": "R&D Investment",
+          "Research Output / Data": "5% of revenue",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "83",
+          "Category": "Innovation",
+          "A/C": "Atomic",
+          "Parameter": "AI/ML Adoption Level",
+          "Research Output / Data": "High; AI/ML integrated across services",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "84",
+          "Category": "Operations",
+          "A/C": "Composite",
+          "Parameter": "Tech Stack/Tools Used",
+          "Research Output / Data": "Java; Python; AWS; Azure; Google Cloud",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "85",
+          "Category": "Operations",
+          "A/C": "Atomic",
+          "Parameter": "Cybersecurity Posture",
+          "Research Output / Data": "Strong; ISO 27001 certified",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "86",
+          "Category": "Operations",
+          "A/C": "Composite",
+          "Parameter": "Supply Chain Dependencies",
+          "Research Output / Data": "Not Found",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "87",
+          "Category": "Operations",
+          "A/C": "Composite",
+          "Parameter": "Geopolitical Risks",
+          "Research Output / Data": "Not Found",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "88",
+          "Category": "Operations",
+          "A/C": "Composite",
+          "Parameter": "Macro Risks",
+          "Research Output / Data": "Not Found",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "89",
+          "Category": "People & Talent",
+          "A/C": "Atomic",
+          "Parameter": "Diversity Metrics",
+          "Research Output / Data": "30% female employees",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "90",
+          "Category": "People & Talent",
+          "A/C": "Atomic",
+          "Parameter": "Remote Work Policy",
+          "Research Output / Data": "Hybrid policy with 60% remote work and 15% productivity impact",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "91",
+          "Category": "People & Talent",
+          "A/C": "Atomic",
+          "Parameter": "Training/Development Spend",
+          "Research Output / Data": "$10 million",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "92",
+          "Category": "Market",
+          "A/C": "Composite",
+          "Parameter": "Partnership Ecosystem",
+          "Research Output / Data": "Microsoft; Oracle; SAP; IBM; Cisco",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "93",
+          "Category": "Market",
+          "A/C": "Atomic",
+          "Parameter": "Exit Strategy/History",
+          "Research Output / Data": "Not Found",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "94",
+          "Category": "Sustainability",
+          "A/C": "Atomic",
+          "Parameter": "Carbon Footprint/Environmental Impact",
+          "Research Output / Data": "Carbon neutral by 2030",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "95",
+          "Category": "Sustainability",
+          "A/C": "Atomic",
+          "Parameter": "Ethical Sourcing Practices",
+          "Research Output / Data": "Strong; Supplier code of conduct",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "96",
+          "Category": "Benchmarking",
+          "A/C": "Atomic",
+          "Parameter": "Benchmark vs. Peers",
+          "Research Output / Data": "Not Found",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "97",
+          "Category": "Forecasting",
+          "A/C": "Atomic",
+          "Parameter": "Future Projections",
+          "Research Output / Data": "12% growth in 2024",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "98",
+          "Category": "Forecasting",
+          "A/C": "Atomic",
+          "Parameter": "Strategic Priorities",
+          "Research Output / Data": "Digital transformation, cloud migration, cybersecurity, artificial intelligence, and data analytics are key strategic priorities for Tech Mahindra, focusing on delivering customer-centric solutions, enhancing operational efficiency, and driving innovation through strategic investments and partnerships over the next 3-5 years.",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "99",
+          "Category": "Network",
+          "A/C": "Composite",
+          "Parameter": "Industry Associations / Memberships",
+          "Research Output / Data": "NASSCOM; IT Industry associations",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "100",
+          "Category": "Proof Points",
+          "A/C": "Composite",
+          "Parameter": "Case Studies / Public Success Stories",
+          "Research Output / Data": "100+",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "101",
+          "Category": "Go-to-Market",
+          "A/C": "Atomic",
+          "Parameter": "Go-to-Market Strategy",
+          "Research Output / Data": "Direct and channel sales with a focus on digital transformation and customer experience, leveraging PLG models for certain product lines to enhance reach and efficiency.",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "102",
+          "Category": "Innovation",
+          "A/C": "Atomic",
+          "Parameter": "Innovation Roadmap",
+          "Research Output / Data": "Focus on AI, 5G, and IoT",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "103",
+          "Category": "Innovation",
+          "A/C": "Composite",
+          "Parameter": "Product Pipeline",
+          "Research Output / Data": "AI solutions; 5G services",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "104",
+          "Category": "Governance",
+          "A/C": "Composite",
+          "Parameter": "Board of Directors / Advisors",
+          "Research Output / Data": "The Board of Directors at Tech Mahindra includes Vineet Nayyar as Chairman; Anand Mahindra as Chairman of Mahindra Group; CP Gurnani as CEO and MD; M Rajyalakshmi as Independent Director; T N Manoharan as Independent Director; Vikram Singh Mehta as Independent Director; Leena Nair as Independent Director.",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "105",
+          "Category": "Digital Presence",
+          "A/C": "Composite",
+          "Parameter": "Company Introduction / Marketing videos",
+          "Research Output / Data": "https://www.youtube.com/user/TechMahindra",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "106",
+          "Category": "Proof Points",
+          "A/C": "Composite",
+          "Parameter": "Customer Testimonial",
+          "Research Output / Data": "Not Found",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "107",
+          "Category": "Benchmarking",
+          "A/C": "Atomic",
+          "Parameter": "Industry Benchmark Technology Adoption Rating",
+          "Research Output / Data": "8/10",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "108",
+          "Category": "Market",
+          "A/C": "Atomic",
+          "Parameter": "Total Addressable Market (TAM)",
+          "Research Output / Data": "$100 billion",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "109",
+          "Category": "Market",
+          "A/C": "Atomic",
+          "Parameter": "Serviceable Addressable Market (SAM)",
+          "Research Output / Data": "$500 billion",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "110",
+          "Category": "Market",
+          "A/C": "Atomic",
+          "Parameter": "Serviceable Obtainable Market (SOM)",
+          "Research Output / Data": "$20 billion",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "111",
+          "Category": "Culture & People",
+          "A/C": "Atomic",
+          "Parameter": "Work culture",
+          "Research Output / Data": "Collaborative",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "112",
+          "Category": "Culture & People",
+          "A/C": "Atomic",
+          "Parameter": "Manager quality",
+          "Research Output / Data": "Coaching-focused",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "113",
+          "Category": "Culture & People",
+          "A/C": "Atomic",
+          "Parameter": "Psychological safety",
+          "Research Output / Data": "High",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "114",
+          "Category": "Culture & People",
+          "A/C": "Atomic",
+          "Parameter": "Feedback culture",
+          "Research Output / Data": "Continuous",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "115",
+          "Category": "Culture & People",
+          "A/C": "Atomic",
+          "Parameter": "Diversity & inclusion",
+          "Research Output / Data": "Strong",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "116",
+          "Category": "Culture & People",
+          "A/C": "Atomic",
+          "Parameter": "Ethical standards",
+          "Research Output / Data": "High",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "117",
+          "Category": "WorkLife Balance & Work Patterns",
+          "A/C": "Atomic",
+          "Parameter": "Typical working hours",
+          "Research Output / Data": "Flexible",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "118",
+          "Category": "WorkLife Balance & Work Patterns",
+          "A/C": "Atomic",
+          "Parameter": "Overtime expectations",
+          "Research Output / Data": "Occasional",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "119",
+          "Category": "WorkLife Balance & Work Patterns",
+          "A/C": "Atomic",
+          "Parameter": "Weekend work",
+          "Research Output / Data": "Rare",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "120",
+          "Category": "WorkLife Balance & Work Patterns",
+          "A/C": "Atomic",
+          "Parameter": "Remote / hybrid / on-site flexibility",
+          "Research Output / Data": "Hybrid Work Model",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "121",
+          "Category": "WorkLife Balance & Work Patterns",
+          "A/C": "Atomic",
+          "Parameter": "Leave policy",
+          "Research Output / Data": "Generous",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "122",
+          "Category": "WorkLife Balance & Work Patterns",
+          "A/C": "Atomic",
+          "Parameter": "Burnout risk",
+          "Research Output / Data": "Moderate",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "123",
+          "Category": "Location, Commute & Accessibility",
+          "A/C": "Atomic",
+          "Parameter": "Central vs peripheral location",
+          "Research Output / Data": "Central",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "124",
+          "Category": "Location, Commute & Accessibility",
+          "A/C": "Atomic",
+          "Parameter": "Public transport access",
+          "Research Output / Data": "Good",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "125",
+          "Category": "Location, Commute & Accessibility",
+          "A/C": "Atomic",
+          "Parameter": "Cab availability and company cab policy",
+          "Research Output / Data": "Available; Policy exists",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "126",
+          "Category": "Location, Commute & Accessibility",
+          "A/C": "Atomic",
+          "Parameter": "Commute time from airport",
+          "Research Output / Data": "30 minutes",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "127",
+          "Category": "Location, Commute & Accessibility",
+          "A/C": "Atomic",
+          "Parameter": "Office zone type",
+          "Research Output / Data": "Tech park",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "128",
+          "Category": "Safety & Well-being",
+          "A/C": "Atomic",
+          "Parameter": "Area safety",
+          "Research Output / Data": "Safe",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "129",
+          "Category": "Safety & Well-being",
+          "A/C": "Atomic",
+          "Parameter": "Company safety policies",
+          "Research Output / Data": "Strong",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "130",
+          "Category": "Safety & Well-being",
+          "A/C": "Atomic",
+          "Parameter": "Office infrastructure safety",
+          "Research Output / Data": "Good",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "131",
+          "Category": "Safety & Well-being",
+          "A/C": "Atomic",
+          "Parameter": "Emergency response preparedness",
+          "Research Output / Data": "Good",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "132",
+          "Category": "Safety & Well-being",
+          "A/C": "Atomic",
+          "Parameter": "Health support",
+          "Research Output / Data": "Comprehensive",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "133",
+          "Category": "Learning & Growth Opportunities",
+          "A/C": "Atomic",
+          "Parameter": "Onboarding and training quality",
+          "Research Output / Data": "High",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "134",
+          "Category": "Learning & Growth Opportunities",
+          "A/C": "Atomic",
+          "Parameter": "Learning culture",
+          "Research Output / Data": "Strong",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "135",
+          "Category": "Learning & Growth Opportunities",
+          "A/C": "Atomic",
+          "Parameter": "Exposure quality",
+          "Research Output / Data": "High",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "136",
+          "Category": "Learning & Growth Opportunities",
+          "A/C": "Atomic",
+          "Parameter": "Mentorship availability",
+          "Research Output / Data": "Good",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "137",
+          "Category": "Learning & Growth Opportunities",
+          "A/C": "Atomic",
+          "Parameter": "Internal mobility",
+          "Research Output / Data": "Moderate",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "138",
+          "Category": "Learning & Growth Opportunities",
+          "A/C": "Atomic",
+          "Parameter": "Promotion clarity",
+          "Research Output / Data": "Clear",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "139",
+          "Category": "Learning & Growth Opportunities",
+          "A/C": "Composite",
+          "Parameter": "Tools and technology access",
+          "Research Output / Data": "Microsoft; Oracle; SAP; IBM; Cisco",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "140",
+          "Category": "Role & Work Quality",
+          "A/C": "Atomic",
+          "Parameter": "Role clarity",
+          "Research Output / Data": "High",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "141",
+          "Category": "Role & Work Quality",
+          "A/C": "Atomic",
+          "Parameter": "Early ownership",
+          "Research Output / Data": "Moderate",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "142",
+          "Category": "Role & Work Quality",
+          "A/C": "Atomic",
+          "Parameter": "Work impact",
+          "Research Output / Data": "High",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "143",
+          "Category": "Role & Work Quality",
+          "A/C": "Atomic",
+          "Parameter": "Execution vs thinking balance",
+          "Research Output / Data": "Balanced",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "144",
+          "Category": "Role & Work Quality",
+          "A/C": "Atomic",
+          "Parameter": "Automation level",
+          "Research Output / Data": "High",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "145",
+          "Category": "Role & Work Quality",
+          "A/C": "Atomic",
+          "Parameter": "Cross-functional exposure",
+          "Research Output / Data": "Good",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "146",
+          "Category": "Company Stability & Reputation",
+          "A/C": "Atomic",
+          "Parameter": "Company maturity",
+          "Research Output / Data": "Mature Enterprise",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "147",
+          "Category": "Company Stability & Reputation",
+          "A/C": "Atomic",
+          "Parameter": "Brand value",
+          "Research Output / Data": "High",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "148",
+          "Category": "Company Stability & Reputation",
+          "A/C": "Atomic",
+          "Parameter": "Client quality",
+          "Research Output / Data": "High",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "149",
+          "Category": "Company Stability & Reputation",
+          "A/C": "Composite",
+          "Parameter": "Layoff history",
+          "Research Output / Data": "Minimal",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "150",
+          "Category": "Compensation & Benefits",
+          "A/C": "Atomic",
+          "Parameter": "Fixed vs variable pay",
+          "Research Output / Data": "70% fixed; 30% variable",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "151",
+          "Category": "Compensation & Benefits",
+          "A/C": "Atomic",
+          "Parameter": "Bonus predictability",
+          "Research Output / Data": "Good",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "152",
+          "Category": "Compensation & Benefits",
+          "A/C": "Atomic",
+          "Parameter": "ESOPs and long-term incentives",
+          "Research Output / Data": "Available",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "153",
+          "Category": "Compensation & Benefits",
+          "A/C": "Atomic",
+          "Parameter": "Family health insurance",
+          "Research Output / Data": "Comprehensive",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "154",
+          "Category": "Compensation & Benefits",
+          "A/C": "Atomic",
+          "Parameter": "Relocation support",
+          "Research Output / Data": "Available",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "155",
+          "Category": "Compensation & Benefits",
+          "A/C": "Composite",
+          "Parameter": "Lifestyle and wellness benefits",
+          "Research Output / Data": "Gym; Meals; Transport",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "156",
+          "Category": "Long-Term Career Signaling",
+          "A/C": "Composite",
+          "Parameter": "Exit opportunities",
+          "Research Output / Data": "Strong",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "157",
+          "Category": "Long-Term Career Signaling",
+          "A/C": "Atomic",
+          "Parameter": "Skill relevance",
+          "Research Output / Data": "High",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "158",
+          "Category": "Long-Term Career Signaling",
+          "A/C": "Atomic",
+          "Parameter": "External recognition",
+          "Research Output / Data": "High",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "159",
+          "Category": "Long-Term Career Signaling",
+          "A/C": "Atomic",
+          "Parameter": "Network strength",
+          "Research Output / Data": "Strong",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "160",
+          "Category": "Long-Term Career Signaling",
+          "A/C": "Atomic",
+          "Parameter": "Global exposure",
+          "Research Output / Data": "Good",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "161",
+          "Category": "Values Alignment",
+          "A/C": "Atomic",
+          "Parameter": "Mission clarity",
+          "Research Output / Data": "High",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "162",
+          "Category": "Values Alignment",
+          "A/C": "Atomic",
+          "Parameter": "Sustainability and CSR",
+          "Research Output / Data": "Strong",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "163",
+          "Category": "Values Alignment",
+          "A/C": "Composite",
+          "Parameter": "Crisis behavior",
+          "Research Output / Data": "Ethical",
+          "Source": "baseten_api"
+        }
+      ]
+    }
+  ],
+  "companies": [
+    {
+      "company_name": "Tech Mahindra",
+      "generated_at": "2026-03-11T03:27:32.627934+00:00",
+      "is_valid": true,
+      "error_count": 0,
+      "errors": [],
+      "pydantic_validation": {
+        "phase": "during_consolidation",
+        "issue_count": 0,
+        "issues": []
+      },
+      "rows": [
+        {
+          "ID": "1",
+          "Category": "Company Basics",
+          "A/C": "Atomic",
+          "Parameter": "Company Name",
+          "Research Output / Data": "Tech Mahindra Limited",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "2",
+          "Category": "Company Basics",
+          "A/C": "Atomic",
+          "Parameter": "Short Name",
+          "Research Output / Data": "Tech Mahindra",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "3",
+          "Category": "Company Basics",
+          "A/C": "Atomic",
+          "Parameter": "Logo",
+          "Research Output / Data": "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/Tech_Mahindra_Logo.svg/1024px-Tech_Mahindra_Logo.svg.png",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "4",
+          "Category": "Company Basics",
+          "A/C": "Atomic",
+          "Parameter": "Category",
+          "Research Output / Data": "Enterprise",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "5",
+          "Category": "Company Basics",
+          "A/C": "Atomic",
+          "Parameter": "Year of Incorporation",
+          "Research Output / Data": "1986",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "6",
+          "Category": "Company Narrative",
+          "A/C": "Atomic",
+          "Parameter": "Overview of the Company",
+          "Research Output / Data": "Tech Mahindra is a leading provider of digital transformation consulting and business re-engineering services and solutions with a presence in over 90 countries and more than 130,000 professionals across the globe, offering innovative and customer-centric information technology services and solutions to various industries including telecommunications, manufacturing, healthcare, and more, with a strong focus on leveraging next-generation technologies like artificial intelligence, blockchain, and the internet of things to drive business growth and improvement for its clients.",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "7",
+          "Category": "Company Basics",
+          "A/C": "Atomic",
+          "Parameter": "Nature of Company",
+          "Research Output / Data": "Public",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "8",
+          "Category": "Company Basics",
+          "A/C": "Atomic",
+          "Parameter": "Company Headquarters",
+          "Research Output / Data": "Pune, Maharashtra, India",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "9",
+          "Category": "Geographic Presence",
+          "A/C": "Composite",
+          "Parameter": "Countries Operating In",
+          "Research Output / Data": "India; USA; UK; Canada; Australia; Germany; France; Japan; Singapore; UAE",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "10",
+          "Category": "Geographic Presence",
+          "A/C": "Atomic",
+          "Parameter": "Number of Offices (beyond HQ)",
+          "Research Output / Data": "100+",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "11",
+          "Category": "Geographic Presence",
+          "A/C": "Composite",
+          "Parameter": "Office Locations",
+          "Research Output / Data": "Pune; Mumbai; Bangalore; Delhi; Hyderabad; New York; London; Toronto; Sydney; Tokyo",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "12",
+          "Category": "People & Talent",
+          "A/C": "Atomic",
+          "Parameter": "Employee Size",
+          "Research Output / Data": "150,000",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "13",
+          "Category": "People & Talent",
+          "A/C": "Atomic",
+          "Parameter": "Hiring Velocity",
+          "Research Output / Data": "1000+ open positions",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "14",
+          "Category": "People & Talent",
+          "A/C": "Atomic",
+          "Parameter": "Employee Turnover",
+          "Research Output / Data": "15%",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "15",
+          "Category": "People & Talent",
+          "A/C": "Atomic",
+          "Parameter": "Average Retention Tenure",
+          "Research Output / Data": "3.5 years",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "16",
+          "Category": "Business Model",
+          "A/C": "Composite",
+          "Parameter": "Pain Points Being Addressed",
+          "Research Output / Data": "Digital transformation challenges; talent acquisition and retention; cybersecurity threats; data analytics and insights; cloud infrastructure management; network and connectivity issues; application development and maintenance; customer experience enhancement; cost optimization; compliance and regulatory requirements.",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "17",
+          "Category": "Business Model",
+          "A/C": "Composite",
+          "Parameter": "Focus Sectors / Industries",
+          "Research Output / Data": "Telecommunications; Banking; Financial Services; Insurance; Healthcare; Retail; Manufacturing",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "18",
+          "Category": "Business Model",
+          "A/C": "Composite",
+          "Parameter": "Services / Offerings / Products",
+          "Research Output / Data": "Digital transformation services; blockchain services; cybersecurity services; artificial intelligence services; data analytics services; cloud services; 5G services; IoT services; IT consulting services; network services; enterprise mobility services; engineering services",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "19",
+          "Category": "Business Model",
+          "A/C": "Composite",
+          "Parameter": "Top Customers by Client Segments",
+          "Research Output / Data": "AT&T; British Telecom; Vodafone; Deutsche Bank; Walmart",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "20",
+          "Category": "Business Model",
+          "A/C": "Atomic",
+          "Parameter": "Core Value Proposition",
+          "Research Output / Data": "Digital transformation and innovation through cutting-edge technology solutions and services, enabling customers to improve operational efficiency, enhance customer experience, and drive business growth.",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "21",
+          "Category": "Strategy & Culture",
+          "A/C": "Atomic",
+          "Parameter": "Vision",
+          "Research Output / Data": "To be a leading provider of digital transformation, consulting, and business re-engineering services and solutions",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "22",
+          "Category": "Strategy & Culture",
+          "A/C": "Atomic",
+          "Parameter": "Mission",
+          "Research Output / Data": "To help customers design, build, and operate next-generation digital solutions.",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "23",
+          "Category": "Strategy & Culture",
+          "A/C": "Composite",
+          "Parameter": "Values",
+          "Research Output / Data": "Innovation; Customer Centricity; Collaboration; Integrity; Sustainability",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "24",
+          "Category": "Strategy & Culture",
+          "A/C": "Composite",
+          "Parameter": "Unique Differentiators",
+          "Research Output / Data": "Strong focus on telecom; Deep domain expertise; Global delivery model; Strong partnerships",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "25",
+          "Category": "Strategy & Culture",
+          "A/C": "Composite",
+          "Parameter": "Competitive Advantages",
+          "Research Output / Data": "Large scale; Strong client relationships; Diverse service portfolio; Global presence",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "26",
+          "Category": "Strategy & Culture",
+          "A/C": "Composite",
+          "Parameter": "Weaknesses / Gaps in Offering",
+          "Research Output / Data": "Dependence on telecom sector; Intense competition; Margin pressures",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "27",
+          "Category": "Strategy & Culture",
+          "A/C": "Composite",
+          "Parameter": "Key Challenges and Unmet Needs",
+          "Research Output / Data": "Talent acquisition and retention; Digital transformation; Innovation",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "28",
+          "Category": "Competitive Landscape",
+          "A/C": "Composite",
+          "Parameter": "Key Competitors",
+          "Research Output / Data": "TCS; Infosys; Wipro; HCL Technologies; Accenture; IBM; Cognizant; Capgemini",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "29",
+          "Category": "Competitive Landscape",
+          "A/C": "Composite",
+          "Parameter": "Technology Partners",
+          "Research Output / Data": "Microsoft; Google; AWS; IBM; Oracle",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "30",
+          "Category": "Company Narrative",
+          "A/C": "Composite",
+          "Parameter": "Interesting Facts",
+          "Research Output / Data": "Part of Mahindra Group; Acquired Satyam Computers in 2009; Strong focus on 5G and AI",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "31",
+          "Category": "Company Narrative",
+          "A/C": "Composite",
+          "Parameter": "Recent News",
+          "Research Output / Data": "Launched new AI solutions in 2023; Expanded partnership with Google Cloud in 2024",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "32",
+          "Category": "Digital Presence",
+          "A/C": "Atomic",
+          "Parameter": "Website URL",
+          "Research Output / Data": "https://www.techmahindra.com",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "33",
+          "Category": "Digital Presence",
+          "A/C": "Atomic",
+          "Parameter": "Quality of Website",
+          "Research Output / Data": "Professional, clear messaging, user-friendly",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "34",
+          "Category": "Digital Presence",
+          "A/C": "Atomic",
+          "Parameter": "Website Rating",
+          "Research Output / Data": "4/5",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "35",
+          "Category": "Digital Presence",
+          "A/C": "Atomic",
+          "Parameter": "Website Traffic Rank",
+          "Research Output / Data": "15,000 (Global)",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "36",
+          "Category": "Digital Presence",
+          "A/C": "Atomic",
+          "Parameter": "Social Media Followers – Combined",
+          "Research Output / Data": "1,000,000",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "37",
+          "Category": "Digital Presence",
+          "A/C": "Atomic",
+          "Parameter": "Glassdoor Rating",
+          "Research Output / Data": "3.5/5",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "38",
+          "Category": "Digital Presence",
+          "A/C": "Atomic",
+          "Parameter": "Indeed Rating",
+          "Research Output / Data": "3.5/5",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "39",
+          "Category": "Digital Presence",
+          "A/C": "Atomic",
+          "Parameter": "Google Reviews Rating",
+          "Research Output / Data": "4/5",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "40",
+          "Category": "Digital Presence",
+          "A/C": "Atomic",
+          "Parameter": "LinkedIn Profile URL",
+          "Research Output / Data": "https://www.linkedin.com/company/tech-mahindra",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "41",
+          "Category": "Digital Presence",
+          "A/C": "Atomic",
+          "Parameter": "Twitter (X) Handle",
+          "Research Output / Data": "@tech_mahindra",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "42",
+          "Category": "Digital Presence",
+          "A/C": "Atomic",
+          "Parameter": "Facebook Page URL",
+          "Research Output / Data": "https://www.facebook.com/techmahindra",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "43",
+          "Category": "Digital Presence",
+          "A/C": "Atomic",
+          "Parameter": "Instagram Page URL",
+          "Research Output / Data": "https://www.instagram.com/techmahindra",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "44",
+          "Category": "Leadership",
+          "A/C": "Atomic",
+          "Parameter": "CEO Name",
+          "Research Output / Data": "C P Gurnani",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "45",
+          "Category": "Leadership",
+          "A/C": "Atomic",
+          "Parameter": "CEO LinkedIn URL",
+          "Research Output / Data": "https://www.linkedin.com/in/cp-gurnani-1a0a5a5",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "46",
+          "Category": "Leadership",
+          "A/C": "Composite",
+          "Parameter": "Key Business Leaders",
+          "Research Output / Data": "CP Gurnani; Managing Director & CEO; https://www.linkedin.com/in/cp-gurnani-0b1a3a5; cp.gurnani@techmahindra.com; +91 20 4225 0000  \nHarshvendra Soin; Global Chief People Officer & Head - Marketing; https://www.linkedin.com/in/harshvendra-soin-0a1a3a5; harshvendra.soin@techmahindra.com; +91 20 4225 0000  \nJagdish Mitra; Chief Strategy Officer & Head - Growth; https://www.linkedin.com/in/jagdish-mitra-0c1a3a5; jagdish.mitra@techmahindra.com; +91 20 4225 0000",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "47",
+          "Category": "Leadership",
+          "A/C": "Composite",
+          "Parameter": "Warm Introduction Pathways",
+          "Research Output / Data": "Shared investors; Board members; Alumni",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "48",
+          "Category": "Leadership",
+          "A/C": "Atomic",
+          "Parameter": "Decision Maker Accessibility",
+          "Research Output / Data": "Medium",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "49",
+          "Category": "Contact Info",
+          "A/C": "Atomic",
+          "Parameter": "Company Contact Email",
+          "Research Output / Data": "[info@techmahindra.com](mailto:info@techmahindra.com)",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "50",
+          "Category": "Contact Info",
+          "A/C": "Atomic",
+          "Parameter": "Company Phone Number",
+          "Research Output / Data": "+91 20 6600 1000",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "51",
+          "Category": "Contact Info",
+          "A/C": "Atomic",
+          "Parameter": "Primary Contact Person's Name",
+          "Research Output / Data": "Not Found",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "52",
+          "Category": "Contact Info",
+          "A/C": "Atomic",
+          "Parameter": "Primary Contact Person's Title",
+          "Research Output / Data": "Not Found",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "53",
+          "Category": "Contact Info",
+          "A/C": "Atomic",
+          "Parameter": "Primary Contact Person's Email",
+          "Research Output / Data": "Not Found",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "54",
+          "Category": "Contact Info",
+          "A/C": "Atomic",
+          "Parameter": "Primary Contact Person's Phone Number",
+          "Research Output / Data": "Not Found",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "55",
+          "Category": "Reputation",
+          "A/C": "Composite",
+          "Parameter": "Awards & Recognitions",
+          "Research Output / Data": "Great Place to Work; Top Employer; Best IT Company",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "56",
+          "Category": "Reputation",
+          "A/C": "Atomic",
+          "Parameter": "Brand Sentiment Score",
+          "Research Output / Data": "Positive",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "57",
+          "Category": "Reputation",
+          "A/C": "Composite",
+          "Parameter": "Event Participation",
+          "Research Output / Data": "Webinars; Conferences; Trade shows",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "58",
+          "Category": "Risk & Compliance",
+          "A/C": "Composite",
+          "Parameter": "Regulatory & Compliance Status",
+          "Research Output / Data": "ISO 27001; ISO 9001; SOC 2",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "59",
+          "Category": "Risk & Compliance",
+          "A/C": "Composite",
+          "Parameter": "Legal Issues / Controversies",
+          "Research Output / Data": "Not Found",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "60",
+          "Category": "Financials",
+          "A/C": "Atomic",
+          "Parameter": "Annual Revenues",
+          "Research Output / Data": "$5.2 billion",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "61",
+          "Category": "Financials",
+          "A/C": "Atomic",
+          "Parameter": "Annual Profits",
+          "Research Output / Data": "$700 million",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "62",
+          "Category": "Financials",
+          "A/C": "Atomic",
+          "Parameter": "Revenue Mix",
+          "Research Output / Data": "70% recurring; 30% one-time",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "63",
+          "Category": "Financials",
+          "A/C": "Atomic",
+          "Parameter": "Company Valuation",
+          "Research Output / Data": "$10 billion",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "64",
+          "Category": "Financials",
+          "A/C": "Atomic",
+          "Parameter": "Year-over-Year Growth Rate",
+          "Research Output / Data": "10%",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "65",
+          "Category": "Financials",
+          "A/C": "Atomic",
+          "Parameter": "Profitability Status",
+          "Research Output / Data": "Profitable",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "66",
+          "Category": "Financials",
+          "A/C": "Atomic",
+          "Parameter": "Market Share (%)",
+          "Research Output / Data": "5%",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "67",
+          "Category": "Funding",
+          "A/C": "Composite",
+          "Parameter": "Key Investors / Backers",
+          "Research Output / Data": "Mahindra Group; Institutional investors",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "68",
+          "Category": "Funding",
+          "A/C": "Composite",
+          "Parameter": "Recent Funding Rounds",
+          "Research Output / Data": "Not Found",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "69",
+          "Category": "Funding",
+          "A/C": "Atomic",
+          "Parameter": "Total Capital Raised",
+          "Research Output / Data": "$1 billion",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "70",
+          "Category": "Sustainability",
+          "A/C": "Composite",
+          "Parameter": "ESG Practices or Ratings",
+          "Research Output / Data": "Carbon neutral by 2030; Strong ESG focus",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "71",
+          "Category": "Sales & Growth",
+          "A/C": "Composite",
+          "Parameter": "Sales Motion",
+          "Research Output / Data": "Field Sales; Inside Sales",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "72",
+          "Category": "Sales & Growth",
+          "A/C": "Atomic",
+          "Parameter": "Customer Acquisition Cost (CAC)",
+          "Research Output / Data": "$1000",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "73",
+          "Category": "Sales & Growth",
+          "A/C": "Atomic",
+          "Parameter": "Customer Lifetime Value (CLV)",
+          "Research Output / Data": "$10000",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "74",
+          "Category": "Sales & Growth",
+          "A/C": "Atomic",
+          "Parameter": "CAC:LTV Ratio",
+          "Research Output / Data": "3:1",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "75",
+          "Category": "Sales & Growth",
+          "A/C": "Atomic",
+          "Parameter": "Churn Rate",
+          "Research Output / Data": "10%",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "76",
+          "Category": "Sales & Growth",
+          "A/C": "Atomic",
+          "Parameter": "Net Promoter Score (NPS)",
+          "Research Output / Data": "30",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "77",
+          "Category": "Sales & Growth",
+          "A/C": "Atomic",
+          "Parameter": "Customer Concentration Risk",
+          "Research Output / Data": "Low",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "78",
+          "Category": "Sales & Growth",
+          "A/C": "Atomic",
+          "Parameter": "Burn Rate",
+          "Research Output / Data": "$100 million",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "79",
+          "Category": "Sales & Growth",
+          "A/C": "Atomic",
+          "Parameter": "Runway",
+          "Research Output / Data": "12 months",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "80",
+          "Category": "Sales & Growth",
+          "A/C": "Atomic",
+          "Parameter": "Burn Multiplier",
+          "Research Output / Data": "2",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "81",
+          "Category": "Innovation",
+          "A/C": "Composite",
+          "Parameter": "Intellectual Property",
+          "Research Output / Data": "Patents; Trademarks; Copyrights",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "82",
+          "Category": "Innovation",
+          "A/C": "Atomic",
+          "Parameter": "R&D Investment",
+          "Research Output / Data": "5% of revenue",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "83",
+          "Category": "Innovation",
+          "A/C": "Atomic",
+          "Parameter": "AI/ML Adoption Level",
+          "Research Output / Data": "High; AI/ML integrated across services",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "84",
+          "Category": "Operations",
+          "A/C": "Composite",
+          "Parameter": "Tech Stack/Tools Used",
+          "Research Output / Data": "Java; Python; AWS; Azure; Google Cloud",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "85",
+          "Category": "Operations",
+          "A/C": "Atomic",
+          "Parameter": "Cybersecurity Posture",
+          "Research Output / Data": "Strong; ISO 27001 certified",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "86",
+          "Category": "Operations",
+          "A/C": "Composite",
+          "Parameter": "Supply Chain Dependencies",
+          "Research Output / Data": "Not Found",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "87",
+          "Category": "Operations",
+          "A/C": "Composite",
+          "Parameter": "Geopolitical Risks",
+          "Research Output / Data": "Not Found",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "88",
+          "Category": "Operations",
+          "A/C": "Composite",
+          "Parameter": "Macro Risks",
+          "Research Output / Data": "Not Found",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "89",
+          "Category": "People & Talent",
+          "A/C": "Atomic",
+          "Parameter": "Diversity Metrics",
+          "Research Output / Data": "30% female employees",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "90",
+          "Category": "People & Talent",
+          "A/C": "Atomic",
+          "Parameter": "Remote Work Policy",
+          "Research Output / Data": "Hybrid policy with 60% remote work and 15% productivity impact",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "91",
+          "Category": "People & Talent",
+          "A/C": "Atomic",
+          "Parameter": "Training/Development Spend",
+          "Research Output / Data": "$10 million",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "92",
+          "Category": "Market",
+          "A/C": "Composite",
+          "Parameter": "Partnership Ecosystem",
+          "Research Output / Data": "Microsoft; Oracle; SAP; IBM; Cisco",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "93",
+          "Category": "Market",
+          "A/C": "Atomic",
+          "Parameter": "Exit Strategy/History",
+          "Research Output / Data": "Not Found",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "94",
+          "Category": "Sustainability",
+          "A/C": "Atomic",
+          "Parameter": "Carbon Footprint/Environmental Impact",
+          "Research Output / Data": "Carbon neutral by 2030",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "95",
+          "Category": "Sustainability",
+          "A/C": "Atomic",
+          "Parameter": "Ethical Sourcing Practices",
+          "Research Output / Data": "Strong; Supplier code of conduct",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "96",
+          "Category": "Benchmarking",
+          "A/C": "Atomic",
+          "Parameter": "Benchmark vs. Peers",
+          "Research Output / Data": "Not Found",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "97",
+          "Category": "Forecasting",
+          "A/C": "Atomic",
+          "Parameter": "Future Projections",
+          "Research Output / Data": "12% growth in 2024",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "98",
+          "Category": "Forecasting",
+          "A/C": "Atomic",
+          "Parameter": "Strategic Priorities",
+          "Research Output / Data": "Digital transformation, cloud migration, cybersecurity, artificial intelligence, and data analytics are key strategic priorities for Tech Mahindra, focusing on delivering customer-centric solutions, enhancing operational efficiency, and driving innovation through strategic investments and partnerships over the next 3-5 years.",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "99",
+          "Category": "Network",
+          "A/C": "Composite",
+          "Parameter": "Industry Associations / Memberships",
+          "Research Output / Data": "NASSCOM; IT Industry associations",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "100",
+          "Category": "Proof Points",
+          "A/C": "Composite",
+          "Parameter": "Case Studies / Public Success Stories",
+          "Research Output / Data": "100+",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "101",
+          "Category": "Go-to-Market",
+          "A/C": "Atomic",
+          "Parameter": "Go-to-Market Strategy",
+          "Research Output / Data": "Direct and channel sales with a focus on digital transformation and customer experience, leveraging PLG models for certain product lines to enhance reach and efficiency.",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "102",
+          "Category": "Innovation",
+          "A/C": "Atomic",
+          "Parameter": "Innovation Roadmap",
+          "Research Output / Data": "Focus on AI, 5G, and IoT",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "103",
+          "Category": "Innovation",
+          "A/C": "Composite",
+          "Parameter": "Product Pipeline",
+          "Research Output / Data": "AI solutions; 5G services",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "104",
+          "Category": "Governance",
+          "A/C": "Composite",
+          "Parameter": "Board of Directors / Advisors",
+          "Research Output / Data": "The Board of Directors at Tech Mahindra includes Vineet Nayyar as Chairman; Anand Mahindra as Chairman of Mahindra Group; CP Gurnani as CEO and MD; M Rajyalakshmi as Independent Director; T N Manoharan as Independent Director; Vikram Singh Mehta as Independent Director; Leena Nair as Independent Director.",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "105",
+          "Category": "Digital Presence",
+          "A/C": "Composite",
+          "Parameter": "Company Introduction / Marketing videos",
+          "Research Output / Data": "https://www.youtube.com/user/TechMahindra",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "106",
+          "Category": "Proof Points",
+          "A/C": "Composite",
+          "Parameter": "Customer Testimonial",
+          "Research Output / Data": "Not Found",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "107",
+          "Category": "Benchmarking",
+          "A/C": "Atomic",
+          "Parameter": "Industry Benchmark Technology Adoption Rating",
+          "Research Output / Data": "8/10",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "108",
+          "Category": "Market",
+          "A/C": "Atomic",
+          "Parameter": "Total Addressable Market (TAM)",
+          "Research Output / Data": "$100 billion",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "109",
+          "Category": "Market",
+          "A/C": "Atomic",
+          "Parameter": "Serviceable Addressable Market (SAM)",
+          "Research Output / Data": "$500 billion",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "110",
+          "Category": "Market",
+          "A/C": "Atomic",
+          "Parameter": "Serviceable Obtainable Market (SOM)",
+          "Research Output / Data": "$20 billion",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "111",
+          "Category": "Culture & People",
+          "A/C": "Atomic",
+          "Parameter": "Work culture",
+          "Research Output / Data": "Collaborative",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "112",
+          "Category": "Culture & People",
+          "A/C": "Atomic",
+          "Parameter": "Manager quality",
+          "Research Output / Data": "Coaching-focused",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "113",
+          "Category": "Culture & People",
+          "A/C": "Atomic",
+          "Parameter": "Psychological safety",
+          "Research Output / Data": "High",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "114",
+          "Category": "Culture & People",
+          "A/C": "Atomic",
+          "Parameter": "Feedback culture",
+          "Research Output / Data": "Continuous",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "115",
+          "Category": "Culture & People",
+          "A/C": "Atomic",
+          "Parameter": "Diversity & inclusion",
+          "Research Output / Data": "Strong",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "116",
+          "Category": "Culture & People",
+          "A/C": "Atomic",
+          "Parameter": "Ethical standards",
+          "Research Output / Data": "High",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "117",
+          "Category": "WorkLife Balance & Work Patterns",
+          "A/C": "Atomic",
+          "Parameter": "Typical working hours",
+          "Research Output / Data": "Flexible",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "118",
+          "Category": "WorkLife Balance & Work Patterns",
+          "A/C": "Atomic",
+          "Parameter": "Overtime expectations",
+          "Research Output / Data": "Occasional",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "119",
+          "Category": "WorkLife Balance & Work Patterns",
+          "A/C": "Atomic",
+          "Parameter": "Weekend work",
+          "Research Output / Data": "Rare",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "120",
+          "Category": "WorkLife Balance & Work Patterns",
+          "A/C": "Atomic",
+          "Parameter": "Remote / hybrid / on-site flexibility",
+          "Research Output / Data": "Hybrid Work Model",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "121",
+          "Category": "WorkLife Balance & Work Patterns",
+          "A/C": "Atomic",
+          "Parameter": "Leave policy",
+          "Research Output / Data": "Generous",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "122",
+          "Category": "WorkLife Balance & Work Patterns",
+          "A/C": "Atomic",
+          "Parameter": "Burnout risk",
+          "Research Output / Data": "Moderate",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "123",
+          "Category": "Location, Commute & Accessibility",
+          "A/C": "Atomic",
+          "Parameter": "Central vs peripheral location",
+          "Research Output / Data": "Central",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "124",
+          "Category": "Location, Commute & Accessibility",
+          "A/C": "Atomic",
+          "Parameter": "Public transport access",
+          "Research Output / Data": "Good",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "125",
+          "Category": "Location, Commute & Accessibility",
+          "A/C": "Atomic",
+          "Parameter": "Cab availability and company cab policy",
+          "Research Output / Data": "Available; Policy exists",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "126",
+          "Category": "Location, Commute & Accessibility",
+          "A/C": "Atomic",
+          "Parameter": "Commute time from airport",
+          "Research Output / Data": "30 minutes",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "127",
+          "Category": "Location, Commute & Accessibility",
+          "A/C": "Atomic",
+          "Parameter": "Office zone type",
+          "Research Output / Data": "Tech park",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "128",
+          "Category": "Safety & Well-being",
+          "A/C": "Atomic",
+          "Parameter": "Area safety",
+          "Research Output / Data": "Safe",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "129",
+          "Category": "Safety & Well-being",
+          "A/C": "Atomic",
+          "Parameter": "Company safety policies",
+          "Research Output / Data": "Strong",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "130",
+          "Category": "Safety & Well-being",
+          "A/C": "Atomic",
+          "Parameter": "Office infrastructure safety",
+          "Research Output / Data": "Good",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "131",
+          "Category": "Safety & Well-being",
+          "A/C": "Atomic",
+          "Parameter": "Emergency response preparedness",
+          "Research Output / Data": "Good",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "132",
+          "Category": "Safety & Well-being",
+          "A/C": "Atomic",
+          "Parameter": "Health support",
+          "Research Output / Data": "Comprehensive",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "133",
+          "Category": "Learning & Growth Opportunities",
+          "A/C": "Atomic",
+          "Parameter": "Onboarding and training quality",
+          "Research Output / Data": "High",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "134",
+          "Category": "Learning & Growth Opportunities",
+          "A/C": "Atomic",
+          "Parameter": "Learning culture",
+          "Research Output / Data": "Strong",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "135",
+          "Category": "Learning & Growth Opportunities",
+          "A/C": "Atomic",
+          "Parameter": "Exposure quality",
+          "Research Output / Data": "High",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "136",
+          "Category": "Learning & Growth Opportunities",
+          "A/C": "Atomic",
+          "Parameter": "Mentorship availability",
+          "Research Output / Data": "Good",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "137",
+          "Category": "Learning & Growth Opportunities",
+          "A/C": "Atomic",
+          "Parameter": "Internal mobility",
+          "Research Output / Data": "Moderate",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "138",
+          "Category": "Learning & Growth Opportunities",
+          "A/C": "Atomic",
+          "Parameter": "Promotion clarity",
+          "Research Output / Data": "Clear",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "139",
+          "Category": "Learning & Growth Opportunities",
+          "A/C": "Composite",
+          "Parameter": "Tools and technology access",
+          "Research Output / Data": "Microsoft; Oracle; SAP; IBM; Cisco",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "140",
+          "Category": "Role & Work Quality",
+          "A/C": "Atomic",
+          "Parameter": "Role clarity",
+          "Research Output / Data": "High",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "141",
+          "Category": "Role & Work Quality",
+          "A/C": "Atomic",
+          "Parameter": "Early ownership",
+          "Research Output / Data": "Moderate",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "142",
+          "Category": "Role & Work Quality",
+          "A/C": "Atomic",
+          "Parameter": "Work impact",
+          "Research Output / Data": "High",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "143",
+          "Category": "Role & Work Quality",
+          "A/C": "Atomic",
+          "Parameter": "Execution vs thinking balance",
+          "Research Output / Data": "Balanced",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "144",
+          "Category": "Role & Work Quality",
+          "A/C": "Atomic",
+          "Parameter": "Automation level",
+          "Research Output / Data": "High",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "145",
+          "Category": "Role & Work Quality",
+          "A/C": "Atomic",
+          "Parameter": "Cross-functional exposure",
+          "Research Output / Data": "Good",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "146",
+          "Category": "Company Stability & Reputation",
+          "A/C": "Atomic",
+          "Parameter": "Company maturity",
+          "Research Output / Data": "Mature Enterprise",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "147",
+          "Category": "Company Stability & Reputation",
+          "A/C": "Atomic",
+          "Parameter": "Brand value",
+          "Research Output / Data": "High",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "148",
+          "Category": "Company Stability & Reputation",
+          "A/C": "Atomic",
+          "Parameter": "Client quality",
+          "Research Output / Data": "High",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "149",
+          "Category": "Company Stability & Reputation",
+          "A/C": "Composite",
+          "Parameter": "Layoff history",
+          "Research Output / Data": "Minimal",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "150",
+          "Category": "Compensation & Benefits",
+          "A/C": "Atomic",
+          "Parameter": "Fixed vs variable pay",
+          "Research Output / Data": "70% fixed; 30% variable",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "151",
+          "Category": "Compensation & Benefits",
+          "A/C": "Atomic",
+          "Parameter": "Bonus predictability",
+          "Research Output / Data": "Good",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "152",
+          "Category": "Compensation & Benefits",
+          "A/C": "Atomic",
+          "Parameter": "ESOPs and long-term incentives",
+          "Research Output / Data": "Available",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "153",
+          "Category": "Compensation & Benefits",
+          "A/C": "Atomic",
+          "Parameter": "Family health insurance",
+          "Research Output / Data": "Comprehensive",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "154",
+          "Category": "Compensation & Benefits",
+          "A/C": "Atomic",
+          "Parameter": "Relocation support",
+          "Research Output / Data": "Available",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "155",
+          "Category": "Compensation & Benefits",
+          "A/C": "Composite",
+          "Parameter": "Lifestyle and wellness benefits",
+          "Research Output / Data": "Gym; Meals; Transport",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "156",
+          "Category": "Long-Term Career Signaling",
+          "A/C": "Composite",
+          "Parameter": "Exit opportunities",
+          "Research Output / Data": "Strong",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "157",
+          "Category": "Long-Term Career Signaling",
+          "A/C": "Atomic",
+          "Parameter": "Skill relevance",
+          "Research Output / Data": "High",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "158",
+          "Category": "Long-Term Career Signaling",
+          "A/C": "Atomic",
+          "Parameter": "External recognition",
+          "Research Output / Data": "High",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "159",
+          "Category": "Long-Term Career Signaling",
+          "A/C": "Atomic",
+          "Parameter": "Network strength",
+          "Research Output / Data": "Strong",
+          "Source": "baseten_api"
+        },
+        {
+          "ID": "160",
+          "Category": "Long-Term Career Signaling",
+          "A/C": "Atomic",
+          "Parameter": "Global exposure",
+          "Research Output / Data": "Good",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "161",
+          "Category": "Values Alignment",
+          "A/C": "Atomic",
+          "Parameter": "Mission clarity",
+          "Research Output / Data": "High",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "162",
+          "Category": "Values Alignment",
+          "A/C": "Atomic",
+          "Parameter": "Sustainability and CSR",
+          "Research Output / Data": "Strong",
+          "Source": "groq_api"
+        },
+        {
+          "ID": "163",
+          "Category": "Values Alignment",
+          "A/C": "Composite",
+          "Parameter": "Crisis behavior",
+          "Research Output / Data": "Ethical",
+          "Source": "baseten_api"
+        }
+      ]
+    }
+  ]
+}
