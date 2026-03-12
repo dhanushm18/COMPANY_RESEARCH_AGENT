@@ -1,5 +1,6 @@
 services:
   research-agent:
+    image: ${IMAGE_REPO:-research-agent}:${IMAGE_TAG:-latest}
     build:
       context: .
       dockerfile: Dockerfile
